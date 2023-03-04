@@ -37,7 +37,7 @@ export default {
     position: relative;
     font-size: 2.4rem;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 400;
     color: $inversed;
 
     &:before {

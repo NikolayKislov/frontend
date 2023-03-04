@@ -27,7 +27,7 @@ export default {
   }
 
   .title {
-    font-family: $font-title;
+    font-family: 'Raleway', sans-serif;
     font-size: 2.4rem;
     line-height: 1;
     font-weight: 600;

@@ -48,7 +48,7 @@ export default {
   .activeLabel {
     font-size: 2.4rem;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 400;
     color: $inversed;
     cursor: pointer;
   }
@@ -68,7 +68,7 @@ export default {
   .link {
     font-size: 2.4rem;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 400;
     color: $secondary;
   }
 </style>
