@@ -1,14 +1,16 @@
 <template>
   <div :class="$style.index">
-
+    <TheHeader/>
   </div>
 </template>
 
 <script>
+import TheHeader from "~/components/layout/header/TheHeader.vue";
 export default {
   name: 'index',
-
-
+  components: {
+    TheHeader,
+  },
 }
 </script>
 

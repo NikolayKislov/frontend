@@ -3,3 +3,13 @@
 @import './common/transitions';
 @import './common/variables';
 @import './common/mixins';
+
+body {
+
+}
+.container {
+  width: 100%;
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
