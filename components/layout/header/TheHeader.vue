@@ -53,7 +53,7 @@ export default {
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(14, 1, 20, .1);
+      background-color: rgba(4, 0, 0, .85);
     }
   }
 
