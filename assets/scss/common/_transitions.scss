@@ -1,0 +1,163 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .3s linear;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+
+
+.max-heightnav-enter-active,
+.max-heightnav-leave-active {
+  opacity: 1;
+  transition: all ease-in-out .5s;
+}
+
+.max-heightnav-enter,
+.max-heightnav-leave-active {
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.overlay-appear-enter-active,
+.overlay-appear-leave-active {
+  transition: all .4s ease-out;
+}
+
+.overlay-appear-enter,
+.overlay-appear-leave-active {
+  opacity: 0;
+}
+
+.content-appear-enter-active,
+.content-appear-leave-active {
+  transition: all .4s ease-out;
+}
+
+.content-appear-enter,
+.content-appear-leave-active {
+  transform: translateY(32px);
+  opacity: 0;
+}
+
+.page-transition-enter-active,
+.page-transition-leave-active {
+  transition: all .5s ease;
+}
+
+.page-transition-enter {
+  transform: translateY(-100%);
+}
+
+.page-transition-leave-active {
+  transform: translateY(100%);
+}
+
+.slide-enter-active {
+  transition-duration: .3s;
+  transition-timing-function: ease-in;
+}
+
+.slide-leave-active {
+  transition-timing-function: cubic-bezier(0, 1, .5, 1);
+  transition-duration: .3s;
+}
+
+.slide-enter-to,
+.slide-leave {
+  max-height: 44.5rem;
+  overflow: hidden;
+}
+
+.slide-enter,
+.slide-leave-to {
+  overflow: hidden;
+  max-height: 0;
+}
+
+
+// new
+
+.expand-enter-active,
+.expand-leave-active {
+  overflow: hidden;
+  transition: all .3s ease;
+}
+
+.expand-enter,
+.expand-leave-to {
+  height: 0;
+  opacity: 0;
+}
+
+.content-slide-up-enter-active,
+.content-slide-up-leave-active,
+.content-slide-left-enter-active,
+.content-slide-left-leave-active {
+  transition: all .3s ease;
+}
+
+.content-slide-up-enter,
+.content-slide-up-leave-to {
+  transform: translateY(0);
+}
+
+.content-slide-up-enter-to,
+.content-slide-up-leave {
+  transform: translateY(-100%);
+}
+
+.content-slide-left-enter,
+.content-slide-left-leave-to {
+  transform: translateX(0);
+}
+
+.content-slide-left-enter-to,
+.content-slide-left-leave {
+  transform: translateX(-100%);
+}
+
+.fade-fast-enter-active,
+.fade-fast-leave-active {
+  transition: opacity .1s linear;
+}
+
+.fade-fast-enter,
+.fade-fast-leave-active {
+  opacity: 0;
+}
+
+.main-pin-appear-enter-active,
+.main-pin-appear-leave-active {
+  transition: all .3s ease-out;
+}
+
+.main-pin-appear-enter,
+.main-pin-appear-leave-active {
+  opacity: 0;
+}
+
+.list-enter-active,
+.list-leave-active {
+  transition: 1s;
+}
+
+.list-enter,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.component-fade-enter-active,
+.component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+
+.component-fade-enter,
+.component-fade-leave-to {
+  opacity: 0;
+}
