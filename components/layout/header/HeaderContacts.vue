@@ -60,6 +60,7 @@ export default {
     flex-direction: column;
     width: 100%;
     padding: 2.4rem;
+    box-shadow: 0 10px 10px rgba(14, 14, 41, .05);
     border-radius: .8rem;
     background-color: $inversed;
   }

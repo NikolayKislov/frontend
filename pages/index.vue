@@ -18,6 +18,6 @@ export default {
 .index {
   width: 100%;
   height: 100vh;
-  background-color: $primary;
+  background-color: $inversed;
 }
 </style>
