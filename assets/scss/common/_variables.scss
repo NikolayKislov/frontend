@@ -1,3 +1,5 @@
+/*Breakpoints*/
+
 $breakpoints: (
   xxs: 320px,
   xs: 520px,
@@ -7,3 +9,13 @@ $breakpoints: (
   xl: 1441px,
   xxl: 1921px
 );
+
+/*Colors*/
+
+$base: #000000;
+$inversed: #ffffff;
+$primary: #46344e;
+$secondary: #5a5560;
+$accent: #faed26;
+$base-light-100: #9d8d8f;
+$base-light-200: #9b786f;

@@ -14,6 +14,8 @@ export default {
 
 <style lang="scss" module>
 .index {
-  //
+  width: 100%;
+  height: 100vh;
+  background-color: $primary;
 }
 </style>
