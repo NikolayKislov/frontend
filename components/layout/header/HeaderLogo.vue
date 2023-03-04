@@ -27,7 +27,7 @@ export default {
   }
 
   .title {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 2.4rem;
     line-height: 1;
     font-weight: 600;
