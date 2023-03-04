@@ -17,6 +17,7 @@ export default {
   .HeaderLogo {
     display: flex;
     align-items: center;
+    z-index: 2;
   }
 
   .logo {

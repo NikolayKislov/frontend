@@ -1,8 +1,10 @@
 <template>
-  <div :class="[$style.TheHeader, 'container']">
-    <HeaderLogo></HeaderLogo>
-    <HeaderMenuDesktop :links="links"/>
-    <HeaderContacts />
+  <div :class="[$style.TheHeader]">
+    <div :class="[$style.headerContainer, 'container']">
+      <HeaderLogo></HeaderLogo>
+      <HeaderMenuDesktop :links="links"/>
+      <HeaderContacts />
+    </div>
   </div>
 </template>
 
@@ -33,10 +35,34 @@ export default {
 
 <style lang="scss" module>
   .TheHeader {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .headerContainer {
+    position: relative;
+    top: 0;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 8rem;
-    padding-top: 2rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(14, 1, 20, .30);
+      border-bottom-left-radius: .8rem;
+      border-bottom-right-radius: .8rem;
+      filter: blur(2px);
+    }
   }
 </style>
