@@ -24,7 +24,6 @@ export default {
   .HeaderMenuDesktop {
     width: 100%;
     max-width: 60rem;
-    margin-left: 5%;
   }
 
   .linksContainer {
